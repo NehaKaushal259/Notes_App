@@ -1,16 +1,96 @@
-# React + Vite
+## Notes_APP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# About
+Notes management web application, using the framework of ⚛️ React and the design library of 🎨 Tailwind CSS.
+This project allows users to create, manage, and delete notes dynamically through a clean and responsive user interface.
 
-Currently, two official plugins are available:
+The notes management application is all about creating components, state management with the help of React hooks, rendering, and designing a dynamic interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# 🚀 Features
+``` text
 
-## Expanding the ESLint configuration
+📝 Create Notes Dynamically
+🗑️ Delete Notes Instantly
+⚡ Real-Time UI Updates
+🎨 Modern Sticky Notes Design
+⚛️ React Hooks State Management
+♻️ Dynamic Rendering using .map()
+✨ Interactive User Experience
+💨 Tailwind CSS Styling
+🧩 Clean and Readable Code Structure
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+# 🛠️ Tech Stack
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+
+
+# Screenshots
+
+<p>
+<img src="./src/Images/image1.png" width=45% />
+<img src="./src/Images/image2.png" width=45% />
+</p>
+
+<p>
+<img src="./src/Images/image3.png"  />
+</p>
+
+<p>
+<img src="./src/Images/image4.png"  width=45%/>
+</p>
+
+
+# 📂 Folder Structure
+
+``` text
+
+Notes_Project/
+│
+├── src/
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── public/
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+
+
+# 🧠 Project Workflow
+
+📌 Add Notes
+``` text
+Users can create notes by entering:
+
+Note Title
+Note Details
+```
+The note is dynamically stored inside React state using useState().
+
+
+
+# 🎯 Project Objective
+
+The main objective of this project is to improve frontend development skills by implementing:
+
+``` text
+State Management
+Event Handling
+Dynamic Rendering
+Array Manipulation
+Form Handling
+Responsive UI Design
+
+This project demonstrates practical React concepts used in real-world applications.
+```
